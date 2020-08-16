@@ -26,3 +26,5 @@ The Put-Call Ratio of a stock is a time-dependent parameter, for which you have 
 with a Time-series prediction model. Using the Put-Call Ratio predicted by the model, you
 need to calculate the Stock Price on 16th Aug 2020 for every Stock in the test data. . The
 output file 02 should contain only Stock Index and the respective Stock Price on 16th August.
+
+# Results
