@@ -29,7 +29,7 @@ output file 02 should contain only Stock Index and the respective Stock Price on
 
 # Results
 - Part-01:
-ANN was used for training the data and predicitng the stock proce due to it having the best MAE and RMSE
+ANN was used for training the data and predicitng the stock price due to it having the best MAE and RMSE. The result was published in an excel file with stock indices and stock prices as its data.
   - MAE (Mean Absolute Error)
     - ANN - 0.02122319379167746
     - linear SVR - 0.059130836271092266
@@ -38,7 +38,6 @@ ANN was used for training the data and predicitng the stock proce due to it havi
     - ANN - 0.05687169907013186
     - linear SVR - 0.08538380653520825
     - RBF SVR - 0.09271939343844929
-The result was published in an excel file with stock indices and stock prices as its data.
 
 - Part-02:
-Here, for time series analysis, we used LSTM (RNN) for the prediction and it was favoured over ARIMA (Auto Regressive Integrated Moving Average) model, due to its performance. I used a Multiple Parallel LSTM, which uses a window based approach for prediction. The time series prediction was done for Put-Call Ratio. AFter the prediction of the ratio, these values were put in the train dataset in the attribute "Put-Call Ratio" and the prediction of the stock prices were done using ANN (which was used in part-1) and the result was published in an excel file with stock indices and stock prices as its data.
+Here, for time series analysis, we used LSTM (RNN) for the prediction and it was favoured over ARIMA (Auto Regressive Integrated Moving Average) model, due to its performance. I used a Multiple-Parallel LSTM, which uses a window based approach for prediction. The time series prediction was done for Put-Call Ratio. After the prediction of the ratio, these values were put in the train dataset, in the attribute "Put-Call Ratio" and the prediction of the stock prices were done using ANN (which was used in part-1) and the result was published in an excel file with stock indices and stock prices as its data.
