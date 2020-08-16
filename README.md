@@ -28,7 +28,7 @@ need to calculate the Stock Price on 16th Aug 2020 for every Stock in the test d
 output file 02 should contain only Stock Index and the respective Stock Price on 16th August.
 
 # Results
-- Part-01
+- Part-01:
 ANN was used for training the data and predicitng the stock proce due to it having the best MAE and RMSE
   - MAE (Mean Absolute Error)
     - ANN - 0.02122319379167746
@@ -39,5 +39,5 @@ ANN was used for training the data and predicitng the stock proce due to it havi
     - linear SVR - 0.08538380653520825
     - RBF SVR - 0.09271939343844929
 
-- Part-02
+- Part-02:
 Here,for time series analysis, we used LSTM (RNN) for the prediction and it was favoured over ARIMA (Auto Regressive Integrated Moving Average) model, due to ite performance. I used a Multiple Parallel LSTM, which uses a window based approach for prediction. The time series prediction was done for Put-Call Ratio. AFter the prediction of the ratio, these values were put in the train dataset in the attribute "Put-Call Ratio" and the prediction of the stock prices were done
